@@ -41,7 +41,11 @@ ul {
 img{
   display: block;
 }
+/* ============ Heder ============== */
 
+.header-navigation{
+display: flex;
+}
 .header{
   padding-top: 24px;
   padding-bottom: 24px;
@@ -54,8 +58,8 @@ img{
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  padding: 25.5px 1240px 25.5px 156px;
 }
-
 .header-logo span {
   color: var(--NAVY-BLUE, #2E2F42);
   font-family: Raleway;
@@ -66,11 +70,13 @@ img{
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-
+.header-menu{
+ display: flex;
+ gap: 40px;
+}
 .header-menu-item{
   background-color: #FFFFFF;
 }
-
 .header-menu-link {
   color: var(--NAVY-BLUE, #2E2F42);
 font-family: Roboto;
@@ -79,7 +85,6 @@ font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
 }
-
 .header-menu-link:hover, .header-menu-link:focus {
   color: #404BBF;
 }
@@ -131,6 +136,8 @@ letter-spacing: 0.02em;
   letter-spacing: 0.04em;
   cursor: pointer;
   padding: 16px 32px 16px 32px;
+  display: block;
+  margin: 0 auto;
 }
 
 .hero-buy-btn:hover, .hero-buy-btn:focus {
