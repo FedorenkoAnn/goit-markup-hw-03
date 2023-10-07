@@ -19,21 +19,15 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-/* 
-.container {
-  width: 1440px;
-  height: 72px;
-  flex-shrink: 0;
-  margin: 0 auto;
-  outline: 2px solid red;
-} */
 
+/* 
 p, h1, h2, h3 {
   margin-top: 0;
   margin-bottom: 0;
 }
+ */
 
-ul {
+ ul, ol {
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -44,7 +38,7 @@ img{
 /* ============ Heder ============== */
 
 .header-navigation{
-display: flex;
+  display: flex;
 }
 .header{
   padding-top: 24px;
@@ -58,7 +52,7 @@ display: flex;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  padding: 25.5px 1240px 25.5px 156px;
+  padding: 25.5px 76px 25.5px 156px;
 }
 .header-logo span {
   color: var(--NAVY-BLUE, #2E2F42);
@@ -89,10 +83,15 @@ letter-spacing: 0.02em;
   color: #404BBF;
 }
 
-/*=========================================*/
+/*============== CONTACTS =======================*/
 
 .contacts {
   font-style:normal;
+}
+
+.address-container{
+  display: flex;
+  gap: 40px;
 }
 
 .address-contacts-link {
@@ -114,6 +113,8 @@ letter-spacing: 0.02em;
 .hero {
   background-color: var(--NAVY-BLUE, #2E2F42);
   padding: 188px 472px 292px 472px;
+  width: 1440px;
+  height: 600px;
 }
 
 .hero-title {
@@ -151,6 +152,15 @@ letter-spacing: 0.02em;
 .features{
   padding-top: 120px;
   padding-bottom: 120px;
+  width: 1440px;
+  height: 344px;
+}
+
+.features-list{
+  padding-left: 156px;
+  padding-right: 156px;
+  display: flex;
+  gap: 24px;
 }
 
 .features-list-subtitle {
@@ -173,9 +183,20 @@ letter-spacing: 0.02em;
 
 /* =========== OUR TEAM =========== */
 
+
 .our {
   background: var(--CLOUD, #F4F4FD);
   text-align: center;
+  width: 1440px;
+  height: 732px;
+  
+}
+
+.our-list{
+  padding-left: 156px;
+  padding-right: 156px;
+  display: flex;
+  gap: 24px;
 }
 
 .our-title {
@@ -219,8 +240,18 @@ letter-spacing: 0.02em;
 
 .portfolio{
   text-align: center;
+  width: 1440px;
+  height: 1240px;
+
 }
 
+.portfolio-list{
+  padding-left: 156px;
+  padding-right: 156px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
 .img-portfolio{
   margin-bottom: 32px;
 }
@@ -232,8 +263,9 @@ letter-spacing: 0.02em;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  padding-top: 120px;
-  margin-bottom: 72px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  
 }
 
 .portfolio-subtitle {
@@ -258,6 +290,8 @@ letter-spacing: 0.02em;
 .footer {
   background-color: var(--NAVY-BLUE, #2E2F42);
   padding: 101,5px 1240px 189,5px 156px;
+  width: 1440px;
+  height: 312px;
 }
 .footer-logo {
   color: var(--IRIS, #4D5AE5);
