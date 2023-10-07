@@ -37,12 +37,21 @@ img{
 }
 /* ============ Heder ============== */
 
+
+.container-header{
+  display: flex;
+  padding: 0 15px 0 15px
+}
+
 .header-navigation{
   display: flex;
+  align-items: center;
 }
 .header{
   padding-top: 24px;
   padding-bottom: 24px;
+  border-bottom: 1px solid #e7e9fc
+  
 }
 .header-logo {
   color: var(--IRIS, #4D5AE5);
@@ -52,7 +61,7 @@ img{
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  padding: 25.5px 76px 25.5px 156px;
+  margin-right: 76px
 }
 .header-logo span {
   color: var(--NAVY-BLUE, #2E2F42);
@@ -67,6 +76,8 @@ img{
 .header-menu{
  display: flex;
  gap: 40px;
+ padding-top: 24px;
+ padding-bottom: 24px;
 }
 .header-menu-item{
   background-color: #FFFFFF;
@@ -126,6 +137,8 @@ letter-spacing: 0.02em;
   letter-spacing: 0.02em;
   margin-bottom: 48px;
   max-width: 496px;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .hero-buy-btn {
@@ -139,6 +152,10 @@ letter-spacing: 0.02em;
   padding: 16px 32px 16px 32px;
   display: block;
   margin: 0 auto;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
 }
 
 .hero-buy-btn:hover, .hero-buy-btn:focus {
@@ -189,7 +206,7 @@ letter-spacing: 0.02em;
   text-align: center;
   width: 1440px;
   height: 732px;
-  
+  width: calc((100% - 72px) / 4);
 }
 
 .our-list{
