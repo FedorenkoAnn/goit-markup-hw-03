@@ -99,11 +99,11 @@ letter-spacing: 0.02em;
 .contacts {
   font-style:normal;
 }
-
+/* 
 .address-container{
   display: flex;
   gap: 40px;
-}
+} */
 
 .address-contacts-link {
   color: var(--SLATE, #434455);
