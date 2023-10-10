@@ -38,9 +38,11 @@ img{
 /* ============ Heder ============== */
 
 
-.container-header{
+.container{
   display: flex;
-  padding: 0 15px 0 15px
+  padding-top: 24px;
+  padding-bottom: 24px;
+  width: 1158px;
 }
 
 .header-navigation{
@@ -50,7 +52,8 @@ img{
 .header{
   padding-top: 24px;
   padding-bottom: 24px;
-  border-bottom: 1px solid #e7e9fc
+  border-bottom: 1px solid #e7e9fc;
+  display: flex;
   
 }
 .header-logo {
@@ -81,6 +84,9 @@ img{
 }
 .header-menu-item{
   background-color: #FFFFFF;
+  display: flex;
+  margin-right: 40px;
+  margin-right: 0;
 }
 .header-menu-link {
   color: var(--NAVY-BLUE, #2E2F42);
@@ -103,7 +109,7 @@ letter-spacing: 0.02em;
 .address-container{
   display: flex;
   gap: 40px;
-} */
+}  */
 
 .address-contacts-link {
   color: var(--SLATE, #434455);
