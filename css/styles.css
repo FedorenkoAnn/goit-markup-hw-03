@@ -280,7 +280,15 @@ letter-spacing: 0.02em;
   text-align: center;
   width: 1440px;
   height: 1240px;
+  padding-top: 120px; 
+  padding-bottom: 120px;
 
+}
+
+.name{
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 .portfolio-list{
@@ -289,10 +297,16 @@ letter-spacing: 0.02em;
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+  row-gap: 48px;
+  margin-bottom: 72px;
+  width: calc((100% - 48px) / 3);
+  margin-bottom: 8px;
 }
+
 .img-portfolio{
   margin-bottom: 32px;
 }
+
 .portfolio-title {
   color: var(--NAVY-BLUE, #2E2F42);
   text-align: center;
@@ -320,6 +334,7 @@ letter-spacing: 0.02em;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+ 
 }
 /*============*/
 
