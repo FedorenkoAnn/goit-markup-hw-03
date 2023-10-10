@@ -93,7 +93,7 @@ img{
   padding-top: 24px;
  padding-bottom: 24px;
 }
-}
+
 .header-menu-link {
   color: var(--NAVY-BLUE, #2E2F42);
 font-family: Roboto;
@@ -195,9 +195,7 @@ letter-spacing: 0.02em;
   width: calc((100% - 72px) / 4);
 }
 
-.features-list-item{
-  
-}
+
 
 .features-list-subtitle {
   background-color: #FFFFFF;
@@ -317,6 +315,8 @@ letter-spacing: 0.02em;
   text-transform: capitalize;
   padding-top: 32px;
   padding-bottom: 32px;
+  margin-bottom: 72px;
+  margin-bottom: 8px
   
 }
 
