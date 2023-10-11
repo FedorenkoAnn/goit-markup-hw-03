@@ -194,7 +194,7 @@ img{
   height: 344px;
 }
 
-.features-list{
+.features-list {
   display: flex;
   gap: 24px;
 }
