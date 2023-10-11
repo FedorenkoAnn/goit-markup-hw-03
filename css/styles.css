@@ -198,10 +198,10 @@ img{
   display: flex;
   gap: 24px;
 }
-/* 
+
 .features-list-item {
-  flex-basis: calc((100% - 24px * 2) / 3);
-} */
+  width: calc((100% - 72px) / 4);
+} 
 
 .features-list-subtitle {
   background-color: #FFFFFF;
@@ -211,7 +211,6 @@ img{
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
-  width: calc((100% - 72px) / 4);
 }
 
 .features-list-text {
@@ -258,7 +257,7 @@ img{
   text-transform: capitalize;
   padding-top: 120px;
   margin-bottom: 72px;
-  width: calc((100% - 72px) / 4);
+  
 }
 
 .our-subtitle {
@@ -272,7 +271,7 @@ img{
 
   .our-list-item {
     background-color: #FFFFFF;
-    
+    width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
   }
 
@@ -332,6 +331,9 @@ img{
   padding-top: 32px;
   padding-bottom: 32px;
   margin-bottom: 72px;
+}
+
+.portfolio-list-item {
   width: calc((100% - 48px) / 3);
 }
 
