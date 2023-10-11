@@ -11,6 +11,10 @@ body {
 .link {
   text-decoration: none;
 }
+.section{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 
 /* 
 p, h1, h2, h3 {
@@ -34,7 +38,13 @@ img{
   padding-left: 15px;
   padding-right: 15px;
   width: 1158px;
-  
+}
+
+.header-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FFFFFF;
 }
 
 .header-navigation{
@@ -42,10 +52,9 @@ img{
   align-items: center;
 }
 .header{
-  border-bottom: 1px solid #e7e9fc;
-  display: flex;
-  
+  border-bottom: 1px solid #e7e9fc;  
 }
+
 .header-logo {
   color: var(--IRIS, #4D5AE5);
   font-size: 18px;
@@ -165,12 +174,17 @@ img{
 /* ============== CATEGORY =============== */
 
 .visually-hidden {
-  margin: -1px;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
 
 .features {
   padding-top: 120px;
