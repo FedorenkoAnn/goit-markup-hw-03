@@ -216,7 +216,7 @@ img {
 /* =========== OUR TEAM =========== */
 
 
-.our section {
+.our {
   background: var(--CLOUD, #F4F4FD);
   text-align: center;
   padding: 120px 0;
