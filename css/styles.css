@@ -24,6 +24,7 @@ img {
     display: block;
 }
 
+
 /* ============ Heder ============== */
 
 .container{
@@ -31,6 +32,10 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   width: 1158px;
+}
+
+.section {
+  padding: 120px 0;
 }
 
 .header-container{
