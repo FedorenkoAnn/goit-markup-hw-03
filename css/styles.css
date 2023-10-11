@@ -199,6 +199,9 @@ img{
   padding-right: 156px;
   display: flex;
   gap: 24px;
+}
+
+.features-list-item {
   width: calc((100% - 72px) / 4);
 }
 
@@ -265,10 +268,13 @@ img{
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
   }
 
   .our-list-item {
     background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
   }
 
 .our-list-text {
@@ -366,6 +372,8 @@ img{
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .footerstudio {
   color: var(--CLOUD, #F4F4FD);
