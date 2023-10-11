@@ -125,8 +125,8 @@ img{
 .hero {
   background-color: var(--NAVY-BLUE, #2E2F42);
   padding: 188px 0 188px;
-  width: 1440px;
-  height: 600px;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .hero-title {
@@ -178,12 +178,9 @@ img{
     overflow: hidden;
   }
 
-.features {
-  padding-top: 120px;
-  padding-bottom: 120px;
-  width: 1440px;
-  height: 344px;
-}
+/* .features {
+
+} */
 
 .features-list {
   display: flex;
@@ -218,10 +215,6 @@ img{
 .our {
   background: var(--CLOUD, #F4F4FD);
   text-align: center;
-  width: 1440px;
-  height: 732px;
-  padding-top: 120px;
-  padding-bottom: 120px;
  
 }
 .our-name {
@@ -247,7 +240,7 @@ img{
   letter-spacing: 0.02em;
   text-transform: capitalize;
  
-  
+
 }
 
 .our-subtitle {
